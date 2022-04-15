@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pålsson Portfolio</title>
+</head>
+<body>
+<!-- Navigation bar -->
+  <nav class="navbar">
+   <div class="brand-title">Welcome</div>
+   <a href="#" class="toggle-button">
+       <span class="bar"></span>
+       <span class="bar"></span>
+       <span class="bar"></span>
+   </a>
+   <div class="navbar-links">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+   </div>
+  </nav>
+<!-- Landing -->
+<div class="container-1">
+      <div class="section-1">
+          <div class="textbox-1">
+          <h1><span class="textappear-1">Pålsson</span> 
+            <span class="textappear-2">web developer</span></h1>
+              
+              <p>
+                <span class="textappear-3">checkout</span> 
+                <span class="textappear-4">my</span> 
+                <span class="textappear-5"><a href="https://github.com/rolfenp" target="_blank">
+                  GITHUB</span></a> 
+                <span class="textappear-6">page</span>
+                <span class="textappear-7">!</span></p>
+              <p>
+                <span class="textappear-8">email</span>
+                <span class="textappear-9"><a href="rolf.palson@gmail.com">rolf.palson@gmail.com</a></span>
+                
+              </p>
+          </div>
+        </div>
+        <div class="profilbild"><img src="Vildmarkfix.png"></div>
+</div>
+
+
+
+
+<!-- Project's -->
+<div class="container-2">
+  <h2>PROJECTS</h2>
+  <h3>Styled table</h3>
+  <div class="schema"><a href="https://github.com/rolfenp/workoutprogram" target="_blank"><img src="schema.png"></a></div>
+  <h3>Flexbox</h3>
+  <div class="galleri"><a href="https://github.com/rolfenp/imagedisplay" target="_blank"><img src="fotogalleri.png"></a></div>
+  <h3>Form</h3>
+  <div class="form"><a href="https://github.com/rolfenp/form" target="_blank"><img src="form.png"></a></div>
+  <h3>Animation</h3>
+  <div class="animation"><a href="https://github.com/rolfenp/Animation-CSS" target="_blank"><img src="animation.png"></a></div>
+
+</div>
+
+
+ <!-- Menu troggle script -->
+ <script>
+     const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
+ </script>
+</body>
+</html>
